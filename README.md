@@ -14,7 +14,7 @@ urlSet.Items.Add(new Url
 	Priority = .5
 });
 
-var sitemap = sitemapGenerator.Generate(urlset);
+var sitemap = sitemapGenerator.GetXml(urlset);
 ```
 Output:
 ```xml
